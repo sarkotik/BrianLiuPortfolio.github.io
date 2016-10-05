@@ -1,0 +1,119 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Div Tag Template</title>
+	<style>
+		body {
+			background: pink;
+			font: 100% Georgia, Times, serif;
+		}
+		h1 {
+			font: 300% Arial, Helvetica, sans-serif;
+			color: grey;
+		}
+		
+		p {
+			color: darkblue;
+		}
+		#wrapper {
+			width: 1100px;
+			margin: 0 auto;
+			padding: 0 50px;
+			text-align: left;
+			position: relative;
+		}
+		#mainHeader {
+			height: 185px;
+			background: url(images/logo.png) no-repeat 25px center;
+			padding: 0 75px 0 300px;
+			position: relative;
+			border-bottom: 2px solid #7f7f7f;
+			margin-bottom:16px;
+		}
+		#mainHeader div{
+			margin-top: 16px;
+		}
+		#mainHeader ul{
+			list-style: none;
+			float: left;
+		}
+		#mainHeader ul li {
+			float: left;
+		}
+		#mainHeader ul li a {
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:20px;
+			color: #000;
+			padding: 0 20px;
+			border-right: 1px solid black;
+			text-decoration: none;
+		}
+		#mainHeader ul li a.last{
+			border:none;
+		}
+		#mainHeader ul li a:hover{
+			color: #c00000;
+		}
+			
+		
+	</style>
+</head>
+
+<body>
+
+<!-- Page Content wrapper -->
+<div id="wrapper">
+
+	<!-- page header - logo, title, links -->
+	<header id="mainHeader">
+		<h1>Exploring Computer Science</h1>
+		<h2>My Collection of Programming Projects and Assignments</h2>
+		
+		<!-- site Navigation links -->
+		<div id="mainNav">
+			<ul id="pages">
+				<li>
+					<a href="#">Scratch</a>
+				</li>
+				<li>
+					<a href="#">Python</a>
+				</li>
+				<li>
+					<a href="#">Java</a>
+				</li>
+				<li>
+					<a href="#">Final Project</a>
+				</li>
+				<li>
+					<a href="#">Home</a>
+				</li>
+			</ul>
+		</div><!-- end Navigation links -->
+		
+	</header><!-- end header -->
+	
+	<!-- Section Content -->
+	<section id="content">
+		<p>Replace this text with project and assignment examples</p>
+	</section><!-- end Content -->
+	
+	<!-- Aside Content -->
+	<aside id="hobbies">
+		<p>Place things you like here; photos, links, videos, etc.</p>
+	</aside><!-- end Hobbies -->
+	
+	<!-- Footer Content -->
+	<footer id="pageFooter">
+		<p>author, contact info, copyright</p>
+	</footer><!-- end Footer -->
+	
+</div><!-- end wrapper -->
+
+
+
+</body>
+
+</html>
